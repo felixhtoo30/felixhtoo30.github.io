@@ -33,6 +33,7 @@ body {
 }
 
 .hero {
+  height: 600px;
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
