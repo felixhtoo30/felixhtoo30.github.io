@@ -1,0 +1,23 @@
+.hero {
+    // height: 700px;
+    // margin: 20px auto;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    @include media ($from: 1024px) {
+    }
+    .hero-main {
+        text-align: center;
+        background: white;
+    }
+    .hero-contact {
+        i {
+            font-size: 16px;
+        }
+    }
+}
+.hero-bg {
+    background-size: contain;
+    background-position: top;
+}

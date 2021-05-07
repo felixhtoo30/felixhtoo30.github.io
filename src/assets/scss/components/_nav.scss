@@ -1,0 +1,39 @@
+.nav {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 0%;
+  background: white;
+  text-align: right;
+  ul {
+    display: inline-flex;
+    background: white;
+    li {
+      color: $color-primary;
+      a {
+        @include on-event(false) {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+  // &.nav-mobile {
+  //   width: 100%;
+  //   height: 100vh;
+  //   background: white;
+  //   display: flex;
+  //   justify-content: center;
+  //   align-items: center;
+  //   }
+  // }
+}
+
+.nav-menu-icon {
+  position: absolute;
+  top: 1%;
+  right: 2%;
+}
