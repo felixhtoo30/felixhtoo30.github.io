@@ -4,7 +4,7 @@ import BackgroundImage from "../assets/images/bg_pattern.svg";
 const Hero = () => {
   return (
     <div
-      className="hero hero-bg lg:w-11/12 lg:h-768p mx-auto"
+      className="hero hero-bg lg:h-768p mx-auto"
       style={{ backgroundImage: `url(${BackgroundImage})` }}
     >
       <div className="hero-main py-5 px-3 lg:p-12 text-left">

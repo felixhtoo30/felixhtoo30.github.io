@@ -1,6 +1,7 @@
 :root {
   --color-primary: #d80032;
   --color-secondary: #2b2d42;
+  --color-secondary-light: hsl(235, 37%, 76%);
 }
 
 @tailwind base;

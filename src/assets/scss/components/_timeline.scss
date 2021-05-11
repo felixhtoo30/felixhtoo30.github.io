@@ -1,0 +1,26 @@
+$timeline-circle-position: -0.75rem;
+.timeline-container {
+    position: relative;
+    .timeline-state {
+        margin-left: ($timeline-circle-position + 2rem);
+        &:before {
+            content: '';
+            position: absolute;
+            left: $timeline-circle-position;
+            width: 20px;
+            height: 20px;
+            border: 3px solid $color-secondary;
+            border-radius: 50%;
+            background: white;
+        }
+    }
+    .timeline-card {
+        border-radius: 12px;
+        box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.12);
+    }
+}
+
+.timeline-baseline {
+    // border-left: 2px solid $color-secondary;
+    border-right: 3px solid $color-secondary;
+}
