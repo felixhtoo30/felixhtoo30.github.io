@@ -4,7 +4,7 @@ import profile from "../assets/images/profile_masked.png";
 export class PrintArea extends React.PureComponent {
   render() {
     return (
-      <div className="mx-auto my-8 px-10" id="printArea">
+      <div className="mx-auto my-0 px-10" id="printArea">
         <div className="main flex mb-12">
           <div className="w-5/12">
             <img src={`${profile}`} alt="Felix Htoo" className="w-9/12" />
@@ -78,7 +78,7 @@ export class PrintArea extends React.PureComponent {
             <h1 className="pa-head text-primary mr-4">Skills</h1>
           </div>
           <div className="w-8/12">
-            <p className="pa-subhead pt-4 mb-6">Hard-skills</p>
+            <p className="pa-subhead pt-2 mb-6">Hard-skills</p>
             <SkillBar title="HTML5" level={6} />
             <SkillBar title="CSS3" level={6} />
             <SkillBar title="SCSS/SASS" level={5} />
@@ -123,7 +123,7 @@ const SkillBar = ({ title, level }) => (
     <div className="pa-skill-bar w-10/12 flex">
       {[...Array(10)].map((el, i) => (
         <p
-          className={`item w-full h-3 mr-2 ${i < level ? "on" : "off"}`}
+          className={`item w-full h-2 mr-2 ${i < level ? "on" : "off"}`}
           key={i}
         />
       ))}

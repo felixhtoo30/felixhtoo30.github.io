@@ -32,15 +32,15 @@ const App = () => {
         </Switch>
       </div>
       <button
-        className="w-16 h-16 lg:w-20 lg:h-20 rounded-full shadow-xl fixed right-6 lg:right-8 bottom-10 outline-none z-50 bg-white text-secondary hover:text-primary"
+        className="w-14 h-14 lg:w-20 lg:h-20 rounded-full shadow-xl fixed right-6 lg:right-8 bottom-10 outline-none z-50 bg-white text-secondary hover:text-primary"
         onClick={handlePrint}
       >
-        <span className="absolute right-0 bottom-14 lg:bottom-20 text-sm lg:text-lg rounded-lg bg-white text-primary text-center font-bold">
+        <span className="absolute right-0 bottom-12 lg:bottom-16 text-sm lg:text-lg rounded-lg bg-white text-primary text-center font-bold">
           Resume!
           <br />
           👇
         </span>
-        <i className="fas fa-print text-2xl lg:text-4xl"></i>
+        <i className="fas fa-print text-xl lg:text-3xl"></i>
       </button>
       <div className="overflow-hidden h-0">
         <PrintArea ref={componentRef} />
