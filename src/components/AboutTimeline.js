@@ -1,5 +1,5 @@
 import React from "react";
-import BackgroundImage from "../assets/images/bg_pattern.svg";
+import Banner from "./Banner";
 
 const AboutTimeline = () => {
   const states = [
@@ -69,16 +69,24 @@ const AboutTimeline = () => {
     },
   ];
 
+  const TimelineState = ({ state }) => {
+    return (
+      <div className="timeline-state py-4">
+        <p className="text-lg md:text-xl lg:text-2xl text-primary">{state.date}</p>
+        <div className="timeline-card p-3 md:p-5 lg:p-6 my-2 md:my-4 text-secondary">
+          <p className="text-sm md:text-lg lg:text-xl font-bold">
+            {state.content.text}
+            <a href={state.content.linkHref} target="_blank" rel="noreferrer" className="text-primary">{state.content.linkText}</a>
+          </p>
+          <p className="text-sm md:text-lg lg:text-xl py-2 text-secondary">{state.duration}</p>
+        </div>
+      </div>
+    );
+  };
+
   return (
     <>
-      <div
-        className="banner banner-bg h-60 md:h-72 lg:h-96 mx-auto"
-        style={{ backgroundImage: `url(${BackgroundImage})` }}
-      >
-        <h3 className="banner-text p-4 lg:p-12 text-xl md:text-3xl font-bold text-primary bg-white">
-          About Me
-        </h3>
-      </div>
+      <Banner title="About Me" />
       <div className="flex justify-center py-4">
         <div className="timeline-baseline" />
         <div className="timeline-container mr-2 my-4">
@@ -88,21 +96,6 @@ const AboutTimeline = () => {
         </div>
       </div>
     </>
-  );
-};
-
-const TimelineState = ({ state }) => {
-  return (
-    <div className="timeline-state py-4">
-      <p className="text-lg md:text-xl lg:text-2xl text-primary">{state.date}</p>
-      <div className="timeline-card p-3 md:p-5 lg:p-6 my-2 md:my-4 text-secondary">
-        <p className="text-sm md:text-lg lg:text-xl font-bold">
-          {state.content.text}
-          <a href={state.content.linkHref} target="_blank" className="text-primary">{state.content.linkText}</a>
-        </p>
-        <p className="text-sm md:text-lg lg:text-xl py-2 text-secondary">{state.duration}</p>
-      </div>
-    </div>
   );
 };
 

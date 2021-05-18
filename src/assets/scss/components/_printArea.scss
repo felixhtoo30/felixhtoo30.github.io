@@ -1,0 +1,33 @@
+@page {
+    size: A4;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+#printArea {
+    .pa-head {
+        font-size: 28px;
+    }
+    .pa-subhead {
+        font-size: 21px;
+        font-weight: bold;
+    }
+    .pa-normal {
+        font-size: 17px;
+    }
+    .pa-skill-bar {
+        .item {
+            &.on {
+                background: $color-primary;
+            }
+            &.off {
+                background: $color-gray;
+            }
+        }
+    }
+
+    li {
+        list-style: disc;
+        margin-left: 16px;
+    }
+}

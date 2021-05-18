@@ -23,6 +23,10 @@ module.exports = {
         "primary": "var(--color-primary)",
         "secondary": "var(--color-secondary)",
         "secondary-light": "var(--color-secondary-light)"
+      },
+      screens: {
+        'print': {'raw': 'print'},
+        // => @media print { ... }
       }
     }
   },

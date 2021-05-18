@@ -27,7 +27,7 @@ const Hero = () => {
 
 const IconBtn = ({iconHref, iconClass}) => {
   return (
-    <a href={iconHref} target="_blank">
+    <a href={iconHref} target="_blank" rel="noreferrer">
       <i className={`${iconClass} hover:text-primary text-2xl lg:text-2xl xl:text-3xl`}></i>
     </a>
   );
