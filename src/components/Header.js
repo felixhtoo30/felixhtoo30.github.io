@@ -1,8 +1,9 @@
 import React, { useState } from "react";
-
 import { Link } from "react-router-dom";
 
+
 const Header = () => {
+  
   const [isToggle, setIsToggle] = useState(true);
 
   const handleMenu = () => {
@@ -24,16 +25,16 @@ const Header = () => {
       >
         <ul className={`nav-menu md:py-5 text-center block md:inline-flex`}>
           <li className="text-xl md:text-lg lg:text-xl xl:text-2xl p-4 md:p-2 my-0 mx-3 lg:my-4 lg:mx-5">
-            <Link to="/">Home</Link>
+            <Link to="/" onClick={handleMenu}>Home</Link>
           </li>
           <li className="text-xl md:text-lg lg:text-xl xl:text-2xl p-4 md:p-2 my-0 mx-3 lg:my-4 lg:mx-5">
-            <Link to="/about">About Me</Link>
+            <Link to="/about" onClick={handleMenu}>About Me</Link>
           </li>
           <li className="text-xl md:text-lg lg:text-xl xl:text-2xl p-4 md:p-2 my-0 mx-3 lg:my-4 lg:mx-5">
-            <Link to="/works">Works</Link>
+            <Link to="/works" onClick={handleMenu}>Works</Link>
           </li>
           <li className="text-xl md:text-lg lg:text-xl xl:text-2xl p-4 md:p-2 my-0 mx-3 lg:my-4 lg:mx-5">
-            <Link to="/articles">Articles</Link>
+            <Link to="/articles" onClick={handleMenu}>Articles</Link>
           </li>
         </ul>
       </header>
