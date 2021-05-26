@@ -1,13 +1,70 @@
 import React from "react";
-import profile from "../assets/images/profile_masked.png";
+import profileImg from "../assets/images/profile_masked.png";
+// import {data} from "../db.js";
+import data from "../db.json";
 
 export class PrintArea extends React.PureComponent {
   render() {
+    const SkillBar = ({ title, level }) => (
+      <div className="mb-6">
+        <p className="pa-normal mb-2">{title}</p>
+        <div className="pa-skill-bar w-10/12 flex">
+          {[...Array(10)].map((el, i) => (
+            <p
+              className={`item w-full h-2 mr-2 ${i < level ? "on" : "off"}`}
+              key={i}
+            />
+          ))}
+        </div>
+      </div>
+    );
+
+    const Experience = ({ exp }) => (
+      <div className="mb-6">
+        <h3 className="pa-subhead">{exp.title}</h3>
+        <h4 className="pa-normal">{exp.company}</h4>
+        <p className="pa-normal font-bold">{exp.duration}</p>
+        {/* <div dangerouslySetInnerHTML={{ __html: exp.description }} /> */}
+        <ul>
+          {exp.description.map((val) => (
+            <li>{val}</li>
+          ))}
+        </ul>
+      </div>
+    );
+
+    const ProjectDev = ({ dev }) => (
+      <div className="my-5">
+        <p className="font-bold text-lg">{dev.name}</p>
+        <p>duration: {dev.duration}</p>
+        <p>skills: {dev.skills}</p>
+        {/* <div className="mt-3 flex text-3xl text-primary">
+          <i className="fab fa-html5 mx-2" />
+          <i className="fab fa-css3-alt mx-2" />
+          <i className="fab fa-php mx-2" />
+          <i className="fab fa-laravel mx-2" />
+        </div> */}
+      </div>
+    );
+
+    const ProjectDesign = ({ design }) => {
+      return (
+        <p className="w-full mt-4">
+          {design.name}
+          <br />(
+          <a href={design.link} className="text-primary">
+            {design.link_text}
+          </a>
+          )
+        </p>
+      );
+    };
+
     return (
       <div className="mx-auto my-0 px-10" id="printArea">
         <div className="main flex mb-12">
           <div className="w-5/12">
-            <img src={`${profile}`} alt="Felix Htoo" className="w-9/12" />
+            <img src={`${profileImg}`} alt="Felix Htoo" className="w-9/12" />
           </div>
           <div className="w-7/12">
             <h1 className="text-4xl text-primary mb-8">Htoo Ant Hlaing</h1>
@@ -106,9 +163,27 @@ export class PrintArea extends React.PureComponent {
             <h1 className="pa-head text-primary mr-4">Work Experiences</h1>
           </div>
           <div className="w-8/12">
-            {expArr.map((exp, i) => (
+            {data.experience.map((exp, i) => (
               <Experience exp={exp} key={i} />
             ))}
+          </div>
+        </div>
+        <div className="flex mb-12" id="project">
+          <div className="w-4/12">
+            <h1 className="pa-head text-primary mr-4">Projects</h1>
+          </div>
+          <div className="w-8/12">
+            <h3 className="pa-subhead">Development</h3>
+            {data.project.dev.map((val, i) => (
+              <ProjectDev dev={val} key={i} />
+            ))}
+
+            <h3 className="pa-subhead mt-12">UIUX Design</h3>
+            <div className="flex flex-wrap">
+              {data.project.design.map((val, i) => (
+                <ProjectDesign design={val} key={i} />
+              ))}
+            </div>
           </div>
         </div>
         {/* 595 x 842 */}
@@ -116,119 +191,5 @@ export class PrintArea extends React.PureComponent {
     );
   }
 }
-
-const SkillBar = ({ title, level }) => (
-  <div className="mb-6">
-    <p className="pa-normal mb-2">{title}</p>
-    <div className="pa-skill-bar w-10/12 flex">
-      {[...Array(10)].map((el, i) => (
-        <p
-          className={`item w-full h-2 mr-2 ${i < level ? "on" : "off"}`}
-          key={i}
-        />
-      ))}
-    </div>
-  </div>
-);
-
-const Experience = ({ exp }) => (
-  <div className="mb-6">
-    <h3 className="pa-subhead">{exp.title}</h3>
-    <h4 className="pa-normal">{exp.company}</h4>
-    <p className="pa-normal font-bold">{exp.duration}</p>
-    <div dangerouslySetInnerHTML={{ __html: exp.description }} />
-  </div>
-);
-
-const expArr = [
-  {
-    title: "Software Engineer",
-    company: "Hirokei Myanmar Systems (Hims)",
-    duration: "Oct, 2017 ~ Nov, 2018",
-    description: `
-      <ul>
-        <li>
-          Designed and developed for Web Distributor that is warehouse
-          controlled system to ease at controlling export/import products.
-        </li>
-        <li>
-          Designed and developed for Regi-Repo (Cloud Reporting System)
-          that is useful for restaurant daily, monthly and yearly sales
-          reports.
-        </li>
-        <li>
-          Designed and developed Recoface (Face Recognition System) for
-          Company Contest Project with 6 Branches.
-        </li>
-        <li>
-          Developed CRM (Customer Relationship Management) that is useful
-          for customer controlling and management with follow-ups,
-          opportunites, and be suitable for marketing services.
-        </li>
-        <li>
-          Drew pamphlets, and graphic designs for the events and
-          products of company.
-        </li>
-      </ul>
-    `
-  },
-  {
-    title: "Web Developer",
-    company: "CGM Golden Land (CGMGL)",
-    duration: "March, 2019 ~ Nov, 2020",
-    description: `
-      <ul>
-        <li>
-          Developed Frontale Football School System to book and apply for Football school.
-        </li>
-        <li>
-          Designed and developed Wordpress theme development for Training.
-        </li>
-        <li>
-          Designed and developed Vue.js for Bulletinboard.
-        </li>
-        <li>
-          Designed and developed GC Dental Events Management System to book and apply for Dental Events Booking.
-        </li>
-        <li>
-          Designed and developed for Ecommerce site with Wordpress and EC-Cube.
-        </li>
-      </ul>
-    `
-  },
-  {
-    title: "UI Designer/Web Developer (Freelance)",
-    company: "Century Links MM",
-    duration: "June, 2020 ~ Present",
-    description: `
-      <ul>
-        <li>
-          Created freelance company logo and portfolio website.
-        </li>
-        <li>
-          Created design and made development for online shopping website with Wordpress (Woocommerce plugin).
-        </li>
-      </ul>
-    `
-  },
-  {
-    title: "Web Designer",
-    company: "Yammobots Co., Ltd.",
-    duration: "Dec, 2020 ~ April, 2021",
-    description: `
-      <ul>
-        <li>
-          Developed Web UI of 'MyCar' Website.
-        </li>
-        <li>
-          Designed UI/UX for e-commerce site.
-        </li>
-        <li>
-          Developed Web UI (mobile/desktop responsive) of iSure Website.
-        </li>
-      </ul>
-    `
-  },
-];
 
 export default PrintArea;

@@ -1,7 +1,7 @@
 import React from "react";
 import Banner from "./Banner";
 
-const AboutTimeline = () => {
+const About = () => {
   const states = [
     {
       date: "2017 Oct",
@@ -51,7 +51,7 @@ const AboutTimeline = () => {
     },{
       date: "2020 June",
       content: {
-        text : "Worked as a Freelance UI/UX & Web Designer at ",
+        text : "Worked as a Freelance UI/UX & Web Developer at ",
         linkText : "Century-Links",
         linkHref : "https://centurylinksmm.com/"
       },
@@ -99,4 +99,4 @@ const AboutTimeline = () => {
   );
 };
 
-export default AboutTimeline;
+export default About;

@@ -1,0 +1,138 @@
+{
+    "experience": [
+        {
+            "title": "Software Engineer",
+            "company": "Hirokei Myanmar Systems (Hims)",
+            "duration": "Oct, 2017 ~ Nov, 2018",
+            "description": [
+                "Designed and developed for Web Distributor that is warehouse controlled system to ease at controlling export/import products.",
+                "Designed and developed for Regi-Repo (Cloud Reporting System) that is useful for restaurant daily, monthly and yearly sales reports.",
+                "Designed and developed Recoface (Face Recognition System) for Company Contest Project with 6 Branches.",
+                "Developed CRM (Customer Relationship Management) that is useful for customer controlling and management with follow-ups, opportunites, and be suitable for marketing services.",
+                "Drew pamphlets, and graphic designs for the events and products of company."
+            ]
+        },
+        {
+            "title": "Web Developer",
+            "company": "CGM Golden Land (CGMGL)",
+            "duration": "March, 2019 ~ Nov, 2020",
+            "description": [
+                "Developed Frontale Football School System to book and apply for Football school.",
+                "Designed and developed Wordpress theme development for Training.",
+                "Designed and developed Vue.js for Bulletinboard.",
+                "Designed and developed GC Dental Events Management System to book and apply for Dental Events Booking.",
+                "Designed and developed for Ecommerce site with Wordpress and EC-Cube."
+            ]
+        },
+        {
+            "title": "UIUX Designer/Web Developer (Freelance)",
+            "company": "Century Links MM",
+            "duration": "June, 2020 ~ Present",
+            "description": [
+                "Created freelance company logo and portfolio website.",
+                "Created design and made development for online shopping website with Wordpress (Woocommerce plugin)."
+            ]
+        },
+        {
+            "title": "Web Designer",
+            "company": "Yammobots Co., Ltd.",
+            "duration": "Dec, 2020 ~ April, 2021",
+            "description": [
+                "Developed Web UI of 'MyCar' Website.",
+                "Designed UI/UX for e-commerce site.",
+                "Developed Web UI (mobile/desktop responsive) of iSure Website."
+            ]
+        }
+    ],
+    "project": {
+        "dev": [
+            {
+                "name": "Cloud Reporting System",
+                "duration": "6 months",
+                "skills": "HTML5, CSS3, JS, PHP (Laravel)"
+            },
+            {
+                "name": "vTiger CRM",
+                "duration": "6 months",
+                "skills": "HTML5, CSS3, JS, PHP (Smarty)"
+            },
+            {
+                "name": "Library Management System",
+                "duration": "2 months",
+                "skills": "HTML5, CSS3, JS, PHP (Pure MVC)"
+            },
+            {
+                "name": "Printing Service Info System",
+                "duration": "6 months",
+                "skills": "HTML5, CSS3, JS, PHP (Laravel)"
+            },
+            {
+                "name": "Football School Application System from JP",
+                "duration": "3 months",
+                "skills": "HTML5, CSS3, JS, PHP (Laravel)"
+            },
+            {
+                "name": "Hotel Booking Application System from JP",
+                "duration": "5 months",
+                "skills": "HTML5, CSS3, JS, PHP (Laravel)"
+            },
+            {
+                "name": "Online shopping Website",
+                "duration": "5 months",
+                "skills": "HTML5, CSS3, JS, PHP (Wordpress)"
+            },
+            {
+                "name": "Dental Event Application System from JP",
+                "duration": "1 year",
+                "skills": "HTML5, CSS3, JS, PHP (Laravel)"
+            },
+            {
+                "name": "Software Service Portfolio Website",
+                "duration": "1 month",
+                "skills": "HTML5, CSS3, JS (Vue), PHP (Wordpress)"
+            },
+            {
+                "name": "Online Shopping Website",
+                "duration": "3 month",
+                "skills": "HTML5, CSS3, JS, PHP (Wordpress)"
+            }
+        ],
+        "design": [
+            {
+                "name": "Web Design: Century Links Software Service",
+                "link": "https://www.figma.com/file/UTWpZTG7DYJRWaaGvAGDsk/Century-Links?node-id=299%3A289",
+                "link_text": "Mockup"
+            },
+            {
+                "name": "Web Design Concept: K-Music",
+                "link": "https://www.figma.com/proto/j2rvRagfN2vQN4b1aV1G4r/Web-Design__K-Music?node-id=28%3A113&scaling=scale-down",
+                "link_text": "Mockup/Prototype"
+            },
+            {
+                "name": "Web Design Concept: Browny Ice Cream",
+                "link": "https://www.figma.com/proto/TgBRPBHqo13Y9Yym51IDGT/Web_Mockups?node-id=133%3A297&viewport=461%2C316%2C0.34672901034355164&scaling=scale-down",
+                "link_text": "Mockup"
+            },
+            {
+                "name": "Web Design Concept: Your Shoes",
+                "link": "https://www.figma.com/proto/NbnF2I51RrOdgXUv6QEkYH/WebDesign__YourShoes?node-id=35%3A325&scaling=min-zoom",
+                "link_text": "Mockup/Prototype"
+            },
+            {
+                "name": "Web Design: Redesign of Sdi Myanmar",
+                "link": "https://www.figma.com/proto/ZIVy1MiZOGnIV3Xk6VpuVC/Redesign__Sdi-Myanmar?node-id=2%3A134&viewport=412%2C190%2C0.19099277257919312&scaling=min-zoom",
+                "link_text": "Mockup/Prototype"
+            },
+            {
+                "name": "App Design Concept: Progrezz",
+                "link": "https://www.figma.com/proto/WzGimjbxbhPvyeUlbfOfWY/Progrezz?node-id=95%3A79&viewport=164%2C-66%2C0.34553584456443787&scaling=min-zoom",
+                "link_text": "Mockup/Prototype"
+            },
+            {
+                "name": "App Design: Redesign of My Ooredoo",
+                "link": "https://www.figma.com/file/SzwHpAoGIPZ1XpU6v2kxej/Ooredoo-App-Phase-2?node-id=377%3A815",
+                "link_text": "Mockup"
+            }
+        ]
+    }
+}

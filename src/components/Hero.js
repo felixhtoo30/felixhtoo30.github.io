@@ -16,12 +16,12 @@ const Hero = () => {
         className="hero hero-bg lg:h-768p mx-auto relative"
         style={{ backgroundImage: `url(${BackgroundImage})` }}
       >
-        <div className="hero-main py-5 px-3 lg:p-12 text-left">
+        <div className="hero-main py-5 px-3 lg:p-12 text-left md:text-center">
           <h1 className="text-5xl lg:text-7xl font-bold text-primary">
-            I'm <br className="md:hidden" /> Felix Htoo
+            I'm <br className="md:hidden" />Felix Htoo
           </h1>
           <h3 className="text-xl lg:text-3xl my-3 text-primary">
-            Web Developer & UI/UX Designer
+            Full-stack Web Developer
           </h3>
           <div className="hero-contact flex justify-between mt-6 lg:mt-9 xl:mt-10 text-secondary">
             {/* <IconBtn iconHref="mailto:felixhtoo30@gmail.com" iconClass="fas fa-envelope" /> */}

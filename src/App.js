@@ -1,10 +1,12 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 
-import AboutTimeline from "./components/AboutTimeline";
+import About from "./components/About";
+import Works from "./components/Works";
+import Articles from "./components/Articles";
 // import Resume from "./components/Resume";
 
 const App = () => {
@@ -14,11 +16,14 @@ const App = () => {
         <Header />
         <Switch>
           <Route path="/about">
-            <AboutTimeline />
+            <About />
           </Route>
-          {/* <Route path="/resume">
-            <Resume />
-          </Route> */}
+          <Route path="/works">
+            <Works />
+          </Route>
+          <Route path="/articles">
+            <Articles />
+          </Route>
           <Route exact path="/">
             <Hero />
           </Route>
