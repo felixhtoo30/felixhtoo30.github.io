@@ -118,15 +118,11 @@ export class PrintArea extends React.PureComponent {
           </div>
           <div className="w-8/12">
             <p className="pa-normal">
-              I am interested and enthusiastic in Making UI/UX Design and Web
-              Development.
-              <br />I love in both Designing and Developing.
-              <br />I spend my spare time with learning UI/UX Design and Coding.
-              <br />I used to work as Software Engineer, Developer about 4
-              years.
-              <br />
-              As a Freelance UI/UX and Graphic Designer, I have 2 year hands on
-              experience.
+            I am interested and enthusiastic in making Web Development and UIUX Design.
+            <br />I'm keen on logical thinking and problem solving.
+            <br />I've worked as Software Engineer about 1 year and Web Developer about 3 years.
+            <br />I like using my spare time with learning Design and Programming Knowledge.
+            <br />My Hobbies are Reading, Watching Films, Learning, Psychology, Philosophy, Programming and Designing.
             </p>
           </div>
         </div>
@@ -136,8 +132,8 @@ export class PrintArea extends React.PureComponent {
           </div>
           <div className="w-8/12">
             <p className="pa-subhead pt-2 mb-6">Hard-skills</p>
-            <SkillBar title="HTML5" level={6} />
-            <SkillBar title="CSS3" level={6} />
+            <SkillBar title="HTML5" level={7} />
+            <SkillBar title="CSS3" level={7} />
             <SkillBar title="SCSS/SASS" level={5} />
             <SkillBar title="jQuery" level={6} />
             <SkillBar title="React" level={4} />

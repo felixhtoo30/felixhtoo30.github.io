@@ -18,13 +18,17 @@ const Hero = () => {
       >
         <div className="hero-main py-5 px-3 lg:p-12 text-left md:text-center">
           <h1 className="text-5xl lg:text-7xl font-bold text-primary">
-            I'm <br className="md:hidden" />Felix Htoo
+            I'm <br className="md:hidden" />
+            Felix Htoo
           </h1>
           <h3 className="text-xl lg:text-3xl my-3 text-primary">
             Full-stack Web Developer
           </h3>
           <div className="hero-contact flex justify-between mt-6 lg:mt-9 xl:mt-10 text-secondary">
-            {/* <IconBtn iconHref="mailto:felixhtoo30@gmail.com" iconClass="fas fa-envelope" /> */}
+            <IconBtn
+              iconHref="mailto:felixhtoo30@gmail.com"
+              iconClass="fas fa-envelope"
+            />
             <IconBtn
               iconHref="//facebook.com/felixhtoo30"
               iconClass="fab fa-facebook"
@@ -34,7 +38,7 @@ const Hero = () => {
               iconClass="fab fa-twitter"
             />
             <IconBtn
-              iconHref="//instagram.com/felixhtoo30"
+              iconHref="//instagram.com/felixhtoo30.dev"
               iconClass="fab fa-instagram"
             />
             <IconBtn
@@ -42,13 +46,17 @@ const Hero = () => {
               iconClass="fab fa-linkedin"
             />
             <IconBtn
+              iconHref="skype:live:mr.hah30?chat"
+              iconClass="fab fa-skype"
+            />
+            {/* <IconBtn
               iconHref="//behance.com/felixhtoo30"
               iconClass="fab fa-behance"
-            />
-            <IconBtn
+            /> */}
+            {/* <IconBtn
               iconHref="//dribbble.com/felixhtoo30"
               iconClass="fab fa-dribbble"
-            />
+            /> */}
             <IconBtn
               iconHref="//github.com/felixhtoo30"
               iconClass="fab fa-github"
