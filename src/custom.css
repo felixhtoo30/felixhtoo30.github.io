@@ -102,11 +102,15 @@ body {
 #printArea .pa-normal {
   font-size: 17px;
 }
+#printArea .pa-skill-bar .item {
+  -webkit-print-color-adjust: exact;
+  color-adjust: exact;
+}
 #printArea .pa-skill-bar .item.on {
-  background: #d80032;
+  background-color: #d80032;
 }
 #printArea .pa-skill-bar .item.off {
-  background: #c4c4c4;
+  background-color: #c4c4c4;
 }
 #printArea li {
   list-style: disc;

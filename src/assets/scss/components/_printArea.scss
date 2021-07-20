@@ -16,11 +16,13 @@
     }
     .pa-skill-bar {
         .item {
+            -webkit-print-color-adjust:exact;
+            color-adjust: exact;
             &.on {
-                background: $color-primary;
+                background-color: $color-primary;
             }
             &.off {
-                background: $color-gray;
+                background-color: $color-gray;
             }
         }
     }

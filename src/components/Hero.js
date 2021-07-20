@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import { useReactToPrint } from "react-to-print";
 
 import BackgroundImage from "../assets/images/bg_pattern.svg";
-import { PrintArea } from "./PrintArea";
+import { Resume } from "./Resume";
 
 const Hero = () => {
   const componentRef = useRef();
@@ -76,7 +76,7 @@ const Hero = () => {
           <i className="fas fa-print text-xl lg:text-3xl"></i>
         </button>
         <div className="overflow-hidden h-0">
-          <PrintArea ref={componentRef} />
+          <Resume ref={componentRef} />
         </div>
       </div>
     </>
