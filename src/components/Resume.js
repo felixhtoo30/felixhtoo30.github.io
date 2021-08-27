@@ -67,7 +67,7 @@ export class Resume extends React.PureComponent {
             <img src={`${profileImg}`} alt="Felix Htoo" className="w-9/12" />
           </div>
           <div className="w-7/12">
-            <h1 className="text-4xl text-primary mb-8">Htoo Ant Hlaing</h1>
+            <h1 className="text-3xl text-primary mb-8">Htoo Ant Hlaing (Felix)</h1>
             <div className="main-info mb-4">
               <h3 className="pa-subhead">Email</h3>
               <p className="pa-normal">felixhtoo30@gmail.com</p>
@@ -94,7 +94,7 @@ export class Resume extends React.PureComponent {
           </div>
           <div className="w-8/12">
             <p className="pa-normal">
-              I would like to work as Senior Web Developer. I have about 4 years
+              I would like to work as Full Stack Developer. I have about 4 years
               hands-on experience with Web Development since 2017.
             </p>
           </div>
@@ -141,17 +141,10 @@ export class Resume extends React.PureComponent {
             <SkillBar title="Laravel" level={5} />
             <SkillBar title="Figma" level={5} />
             <SkillBar title="Adobe XD" level={4} />
-            <SkillBar title="Adobe Photoshop" level={4} />
-            <SkillBar title="Adobe Illustrator" level={4} />
+            <SkillBar title="Adobe Photoshop/Illustrator" level={4} />
+            {/* <SkillBar title="Adobe Illustrator" level={4} /> */}
             <p className="pa-subhead pt-4 mb-4">Soft-skills</p>
-            <ul>
-              <li className="pa-normal">Independent</li>
-              <li className="pa-normal">Teamwork</li>
-              <li className="pa-normal">Responsibility</li>
-              <li className="pa-normal">Logical Thinking</li>
-              <li className="pa-normal">Self-Taught</li>
-              <li className="pa-normal">Active Learner</li>
-            </ul>
+            <p>Independent . Motivated . Organized . Teamwork . Problem solving . Self-taught . Adaptability . Responsibility</p>
           </div>
         </div>
         <div className="flex mb-12" id="experience">

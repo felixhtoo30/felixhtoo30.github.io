@@ -30,7 +30,7 @@ const Hero = () => {
               iconClass="fas fa-envelope"
             />
             <IconBtn
-              iconHref="//facebook.com/felixhtoo30"
+              iconHref="//facebook.com/felixhtoo30.dev"
               iconClass="fab fa-facebook"
             />
             <IconBtn
@@ -38,7 +38,7 @@ const Hero = () => {
               iconClass="fab fa-twitter"
             />
             <IconBtn
-              iconHref="//instagram.com/felixhtoo30.dev"
+              iconHref="//instagram.com/felixhtoo30"
               iconClass="fab fa-instagram"
             />
             <IconBtn
