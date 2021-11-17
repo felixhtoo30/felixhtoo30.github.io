@@ -5,9 +5,9 @@ import data from "../db.json";
 
 export class Resume extends React.PureComponent {
   render() {
-    const SkillBar = ({ title, level }) => (
+    const SkillBar = ({ title, detail, level }) => (
       <div className="mb-6">
-        <p className="pa-normal mb-2">{title}</p>
+        <p className="pa-normal mb-2">{title}<br/>{detail}</p>
         <div className="pa-skill-bar w-10/12 flex">
           {[...Array(10)].map((el, i) => (
             <p
@@ -118,11 +118,12 @@ export class Resume extends React.PureComponent {
           </div>
           <div className="w-8/12">
             <p className="pa-normal">
-            I am interested and enthusiastic in making Web Development and UIUX Design.
+            I am interested in learning and developing products with Web technologies.
+            <br />I'm UIUX Design Enthusiast.
             <br />I'm keen on logical thinking and problem solving.
             <br />I've worked as Software Engineer about 1 year and Web Developer about 3 years.
-            <br />I like using my spare time with learning Design and Programming Knowledge.
-            <br />My Hobbies are Reading, Watching Films, Learning, Psychology, Philosophy, Programming and Designing.
+            <br />I usually use my free time by reading about Web technologies, Designs and honing my Programming knowledge and skills.
+            <br />My Hobbies are Reading, Watching films, Learning, Psychology, Philosophy, Programming and Design.
             </p>
           </div>
         </div>
@@ -132,16 +133,17 @@ export class Resume extends React.PureComponent {
           </div>
           <div className="w-8/12">
             <p className="pa-subhead pt-2 mb-6">Hard-skills</p>
-            <SkillBar title="HTML5" level={7} />
-            <SkillBar title="CSS3" level={7} />
-            <SkillBar title="SCSS/SASS" level={5} />
-            <SkillBar title="jQuery" level={6} />
-            <SkillBar title="React" level={4} />
-            <SkillBar title="Wordpress" level={4} />
-            <SkillBar title="Laravel" level={5} />
+            <SkillBar title="HTML5/CSS3" level={7} />
+            <SkillBar title="SCSS/SASS" level={6} />
+            <SkillBar title="JQuery" level={6} />
+            <SkillBar title="Reactjs" level={5} />
+            <SkillBar title="Nodejs" level={4} />
+            <SkillBar title="Laravel" level={7} />
+            <SkillBar title="Wordpress" level={6} />
+            <SkillBar title="Magento" level={4} />
             <SkillBar title="Figma" level={5} />
             <SkillBar title="Adobe XD" level={4} />
-            <SkillBar title="Adobe Photoshop/Illustrator" level={4} />
+            {/* <SkillBar title="Adobe Photoshop/Illustrator" level={4} /> */}
             {/* <SkillBar title="Adobe Illustrator" level={4} /> */}
             <p className="pa-subhead pt-4 mb-4">Soft-skills</p>
             <p>Independent . Motivated . Organized . Teamwork . Problem solving . Self-taught . Adaptability . Responsibility</p>

@@ -27,20 +27,29 @@
         {
             "title": "UIUX Designer/Web Developer (Freelance)",
             "company": "Century Links MM",
-            "duration": "June, 2020 ~ Present",
+            "duration": "June, 2020 ~ Suspended",
             "description": [
                 "Created freelance company logo and portfolio website.",
                 "Created design and made development for online shopping website with Wordpress (Woocommerce plugin)."
             ]
         },
         {
-            "title": "Web Designer",
+            "title": "Frontend Web Developer",
             "company": "Yammobots Co., Ltd.",
             "duration": "Dec, 2020 ~ April, 2021",
             "description": [
                 "Developed Web UI of 'MyCar' Website.",
                 "Designed UI/UX for e-commerce site.",
                 "Developed Web UI (mobile/desktop responsive) of iSure Website."
+            ]
+        },
+        {
+            "title": "Web Developer (Part-Time)",
+            "company": "Blink 23 Inc.",
+            "duration": "Dec, 2020 ~ Present",
+            "description": [
+                "Designed and Developed Seller Portal Website and Admin Site.",
+                "Developed marketplace E-Commerce Site. Create Modules and Plugins of Magento."
             ]
         }
     ],
@@ -95,6 +104,16 @@
                 "name": "Online Shopping Website",
                 "duration": "3 month",
                 "skills": "HTML5, CSS3, JS, PHP (Wordpress)"
+            },
+            {
+                "name": "Blink23 Seller Portal Website",
+                "duration": "3 month",
+                "skills": "HTML5, CSS3, JS, PHP"
+            },
+            {
+                "name": "Blink23 Marketplace E-Commerce Website",
+                "duration": "3 month",
+                "skills": "HTML5, CSS3, JS, PHP (Magento)"
             }
         ],
         "design": [
@@ -107,11 +126,6 @@
                 "name": "Web Design Concept: K-Music",
                 "link": "https://www.figma.com/proto/j2rvRagfN2vQN4b1aV1G4r/Web-Design__K-Music?node-id=28%3A113&scaling=scale-down",
                 "link_text": "Mockup/Prototype"
-            },
-            {
-                "name": "Web Design Concept: Browny Ice Cream",
-                "link": "https://www.figma.com/proto/TgBRPBHqo13Y9Yym51IDGT/Web_Mockups?node-id=133%3A297&viewport=461%2C316%2C0.34672901034355164&scaling=scale-down",
-                "link_text": "Mockup"
             },
             {
                 "name": "Web Design Concept: Your Shoes",
