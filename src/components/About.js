@@ -6,7 +6,7 @@ const About = () => {
     {
       date: "2017 Oct",
       content: {
-       text : "Started a job as Software Engineer at ",
+       text : "Started my career as Software Engineer at ",
        linkText : "HIMS Co.,Ltd.",
        linkHref : "https://hirokei-myanmar.com"
       },
@@ -33,7 +33,7 @@ const About = () => {
     },{
       date: "2019 Feb",
       content: {
-        text : "Worked as a Web Developer at ",
+        text : "Worked as Web Developer at ",
         linkText : "CGM Golden Land Co.,Ltd.",
         linkHref : "http://cgm-myanmar.com/"
       },
@@ -43,7 +43,7 @@ const About = () => {
       date: "2019 Nov",
       content: {
         text : "Started Learning UI/UX Design as Self-Taught",
-        linkText : "",
+        linkText : "Fresher's Works",
         linkHref : ""
       },
       duration: "(2019 Nov ~ Present)",
@@ -51,20 +51,47 @@ const About = () => {
     },{
       date: "2020 June",
       content: {
-        text : "Worked as a Freelance UI/UX & Web Developer at ",
+        text : "Worked as Freelance UI/UX & Web Developer at ",
         linkText : "Century-Links",
         linkHref : "https://centurylinksmm.com/"
       },
-      duration: "(2020 June ~ Present)",
+      duration: "(2020 June ~ 2021 Dec)",
       skills: []
     },{
       date: "2020 Dec",
       content: {
-        text : "Worked as a UI/UX Web Designer at ",
+        text : "Worked as UI/UX Web Designer at ",
         linkText : "Yammobots Co.,Ltd.",
         linkHref : "https://yammobots.com/"
       },
       duration: "(2020 Dec ~ 2021 May)",
+      skills: []
+    }, {
+      date: "2020 Dec",
+      content: {
+        text : "Worked as Web Designer and Developer at ",
+        linkText : "Blink23",
+        linkHref : "https://blink23.com/"
+      },
+      duration: "(2020 Dec ~ 2022 Aug)",
+      skills: []
+    }, {
+      date: "2022 Feb",
+      content: {
+        text : "Worked as Web Developer (Wordpress) at ",
+        linkText : "Skills Union",
+        linkHref : "https://blink23.com/"
+      },
+      duration: "(2022 Feb ~ 2022 Sep)",
+      skills: []
+    },{
+      date: "2020 Oct",
+      content: {
+        text : "Worked as Web Developer at ",
+        linkText : "SMITIV",
+        linkHref : "https://smitiv.com/"
+      },
+      duration: "(2020 Oct ~ Present)",
       skills: []
     },
   ];

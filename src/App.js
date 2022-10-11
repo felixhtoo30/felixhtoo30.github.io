@@ -7,7 +7,7 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import Works from "./components/Works";
 import Articles from "./components/Articles";
-// import Resume from "./components/Resume";
+import ResumeForm from "./components/ResumeForm";
 
 const App = () => {
   return (
@@ -23,6 +23,9 @@ const App = () => {
           </Route>
           <Route path="/articles">
             <Articles />
+          </Route>
+          <Route path="/resume-form">
+            <ResumeForm />
           </Route>
           <Route exact path="/">
             <Hero />

@@ -96,21 +96,28 @@ body {
   font-size: 28px;
 }
 #printArea .pa-subhead {
-  font-size: 21px;
+  font-size: 20px;
   font-weight: bold;
 }
 #printArea .pa-normal {
-  font-size: 17px;
+  font-size: 16px;
 }
 #printArea .pa-skill-bar .item {
   -webkit-print-color-adjust: exact;
-  color-adjust: exact;
+  print-color-adjust: exact;
 }
 #printArea .pa-skill-bar .item.on {
   background-color: #d80032;
 }
 #printArea .pa-skill-bar .item.off {
   background-color: #c4c4c4;
+}
+#printArea .pa-flex-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+}
+#printArea .pa-flex-wrapper > * {
+  width: 50%;
 }
 #printArea li {
   list-style: disc;

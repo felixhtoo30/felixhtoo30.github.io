@@ -8,16 +8,16 @@
         font-size: 28px;
     }
     .pa-subhead {
-        font-size: 21px;
+        font-size: 20px;
         font-weight: bold;
     }
     .pa-normal {
-        font-size: 17px;
+        font-size: 16px;
     }
     .pa-skill-bar {
         .item {
-            -webkit-print-color-adjust:exact;
-            color-adjust: exact;
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
             &.on {
                 background-color: $color-primary;
             }
@@ -25,6 +25,15 @@
                 background-color: $color-gray;
             }
         }
+    }
+
+    .pa-flex-wrapper {
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    .pa-flex-wrapper > * {
+        width: 50%;
     }
 
     li {

@@ -22,7 +22,7 @@ const Hero = () => {
             Felix Htoo
           </h1>
           <h3 className="text-xl lg:text-3xl my-3 text-primary">
-            Full-stack Web Developer
+            Web Designer • Developer
           </h3>
           <div className="hero-contact flex justify-between mt-6 lg:mt-9 xl:mt-10 text-secondary">
             <IconBtn
@@ -30,7 +30,7 @@ const Hero = () => {
               iconClass="fas fa-envelope"
             />
             <IconBtn
-              iconHref="//facebook.com/felixhtoo30.dev"
+              iconHref="//facebook.com/felixhtoo30"
               iconClass="fab fa-facebook"
             />
             <IconBtn
@@ -45,10 +45,10 @@ const Hero = () => {
               iconHref="//linkedin.com/in/felixhtoo30"
               iconClass="fab fa-linkedin"
             />
-            <IconBtn
+            {/* <IconBtn
               iconHref="skype:live:mr.hah30?chat"
               iconClass="fab fa-skype"
-            />
+            /> */}
             {/* <IconBtn
               iconHref="//behance.com/felixhtoo30"
               iconClass="fab fa-behance"

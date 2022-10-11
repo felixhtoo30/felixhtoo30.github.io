@@ -5,11 +5,12 @@ import data from "../db.json";
 
 export class Resume extends React.PureComponent {
   render() {
+    const maxLevel = 7;
     const SkillBar = ({ title, detail, level }) => (
       <div className="mb-6">
         <p className="pa-normal mb-2">{title}<br/>{detail}</p>
         <div className="pa-skill-bar w-10/12 flex">
-          {[...Array(10)].map((el, i) => (
+          {[...Array(maxLevel)].map((el, i) => (
             <p
               className={`item w-full h-2 mr-2 ${i < level ? "on" : "off"}`}
               key={i}
@@ -62,7 +63,7 @@ export class Resume extends React.PureComponent {
 
     return (
       <div className="mx-auto my-0 px-10" id="printArea">
-        <div className="main flex mb-12">
+        <div className="main flex mb-10">
           <div className="w-5/12">
             <img src={`${profileImg}`} alt="Felix Htoo" className="w-9/12" />
           </div>
@@ -74,7 +75,7 @@ export class Resume extends React.PureComponent {
             </div>
             <div className="main-info mb-4">
               <h3 className="pa-subhead">Phone</h3>
-              <p className="pa-normal">+95-9450006369</p>
+              <p className="pa-normal">+959450006369</p>
             </div>
             <div className="main-info mb-4">
               <h3 className="pa-subhead">LinkedIn</h3>
@@ -82,24 +83,24 @@ export class Resume extends React.PureComponent {
             </div>
             <div className="main-info mb-4">
               <h3 className="pa-subhead">Address</h3>
-              <p className="pa-normal">
+              {/* <p className="pa-normal">
                 No.53, 7th floor (B), Eain Gyi St., Pazundaung Tsp., Yangon
-              </p>
+              </p> */}
+              <p className="pa-normal">Pazundaung Tsp., Yangon</p>
             </div>
           </div>
         </div>
-        <div className="flex mb-12" id="objective">
+        <div className="flex mb-10" id="objective">
           <div className="w-4/12">
             <h1 className="pa-head text-primary mr-4">Objective</h1>
           </div>
           <div className="w-8/12">
             <p className="pa-normal">
-              I would like to work as Full Stack Developer. I have about 4 years
-              hands-on experience with Web Development since 2017.
+              I would like to work as Web Developer. I have around 5 years hands-on experience with Web Development since 2017.
             </p>
           </div>
         </div>
-        <div className="flex mb-12" id="education">
+        <div className="flex mb-10" id="education">
           <div className="w-4/12">
             <h1 className="pa-head text-primary mr-4">Education</h1>
           </div>
@@ -112,7 +113,7 @@ export class Resume extends React.PureComponent {
             </p>
           </div>
         </div>
-        <div className="flex mb-12" id="profile">
+        <div className="flex mb-10" id="profile">
           <div className="w-4/12">
             <h1 className="pa-head text-primary mr-4">Profile</h1>
           </div>
@@ -121,35 +122,36 @@ export class Resume extends React.PureComponent {
             I am interested in learning and developing products with Web technologies.
             <br />I'm UIUX Design Enthusiast.
             <br />I'm keen on logical thinking and problem solving.
-            <br />I've worked as Software Engineer about 1 year and Web Developer about 3 years.
+            <br />I've worked as Software Engineer about 1 year and Web Developer about 4 years.
+            <br /> I've project experience with the following fields: Distribution, Warehouse, Cloud Reporting, Marketplace, Ecommerce, LMS Education, Hotel Booking, Event Booking and School Registration.
             <br />I usually use my free time by reading about Web technologies, Designs and honing my Programming knowledge and skills.
-            <br />My Hobbies are Reading, Watching films, Learning, Psychology, Philosophy, Programming and Design.
+            <br />My Hobbies are Reading, Listening Podcasts, Learning, Psychology, Philosophy, Programming and Design.
             </p>
           </div>
         </div>
-        <div className="flex mb-12" id="skill">
+        <div className="flex mb-10" id="skill">
           <div className="w-4/12">
             <h1 className="pa-head text-primary mr-4">Skills</h1>
           </div>
           <div className="w-8/12">
             <p className="pa-subhead pt-2 mb-6">Hard-skills</p>
-            <SkillBar title="HTML5/CSS3" level={7} />
-            <SkillBar title="SCSS/SASS" level={6} />
-            <SkillBar title="JQuery" level={6} />
-            <SkillBar title="Reactjs" level={5} />
-            <SkillBar title="Nodejs" level={4} />
-            <SkillBar title="Laravel" level={7} />
-            <SkillBar title="Wordpress" level={6} />
-            <SkillBar title="Magento" level={4} />
-            <SkillBar title="Figma" level={5} />
-            <SkillBar title="Adobe XD" level={4} />
-            {/* <SkillBar title="Adobe Photoshop/Illustrator" level={4} /> */}
-            {/* <SkillBar title="Adobe Illustrator" level={4} /> */}
+            <div className="pa-flex-wrapper">
+              <SkillBar title="HTML5/CSS3" level={5} />
+              <SkillBar title="SCSS/SASS" level={5} />
+              <SkillBar title="JQuery" level={5} />
+              <SkillBar title="Reactjs" level={4} />
+              <SkillBar title="Nodejs" level={3} />
+              <SkillBar title="Laravel" level={4} />
+              <SkillBar title="Wordpress" level={5} />
+              <SkillBar title="Magento" level={3} />
+              <SkillBar title="Figma/Adobe XD" level={5} />
+              <SkillBar title="Adobe Photoshop/Illustrator" level={4} />
+            </div>
             <p className="pa-subhead pt-4 mb-4">Soft-skills</p>
             <p>Independent . Motivated . Organized . Teamwork . Problem solving . Self-taught . Adaptability . Responsibility</p>
           </div>
         </div>
-        <div className="flex mb-12" id="experience">
+        <div className="flex mb-10" id="experience">
           <div className="w-4/12">
             <h1 className="pa-head text-primary mr-4">Work Experiences</h1>
           </div>
@@ -159,7 +161,7 @@ export class Resume extends React.PureComponent {
             ))}
           </div>
         </div>
-        <div className="flex mb-12" id="project">
+        <div className="flex mb-10" id="project">
           <div className="w-4/12">
             <h1 className="pa-head text-primary mr-4">Projects</h1>
           </div>

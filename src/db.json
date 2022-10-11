@@ -15,7 +15,7 @@
         {
             "title": "Web Developer",
             "company": "CGM Golden Land (CGMGL)",
-            "duration": "March, 2019 ~ Nov, 2020",
+            "duration": "Mar, 2019 ~ Nov, 2020",
             "description": [
                 "Developed Frontale Football School System to book and apply for Football school.",
                 "Designed and developed Wordpress theme development for Training.",
@@ -27,7 +27,7 @@
         {
             "title": "UIUX Designer/Web Developer (Freelance)",
             "company": "Century Links MM",
-            "duration": "June, 2020 ~ Suspended",
+            "duration": "Jun, 2020 ~ Dec, 2021",
             "description": [
                 "Created freelance company logo and portfolio website.",
                 "Created design and made development for online shopping website with Wordpress (Woocommerce plugin)."
@@ -46,10 +46,23 @@
         {
             "title": "Web Developer (Part-Time)",
             "company": "Blink 23 Inc.",
-            "duration": "Dec, 2020 ~ Present",
+            "duration": "Dec, 2020 ~ Aug, 2022",
             "description": [
                 "Designed and Developed Seller Portal Website and Admin Site.",
                 "Developed marketplace E-Commerce Site. Create Modules and Plugins of Magento."
+            ]
+        },
+        {
+            "title": "Web Developer",
+            "company": "Skills Union",
+            "duration": "Feb, 2020 ~ Present",
+            "description": [
+                "Developed Skills Union main Website Ver.2 and Ver.3 (latest).",
+                "Develop and maintain WordPress website that communicates what SkillsU is to the general public.",
+                "Work with stakeholders (CEO, Head of Product, Content Writer, UX Designer, and Technical Director) for continuous evolvement on the website.",
+                "Assist Content Writer by troubleshooting issues and/or providing advice for the technical roadblocks.",
+                "Hosting and server (Ubuntu) maintenance and upgrading.",
+                "Ad-hoc tasks as assigned by the management in line with the Company's vision and mission."
             ]
         }
     ],
@@ -114,6 +127,16 @@
                 "name": "Blink23 Marketplace E-Commerce Website",
                 "duration": "3 month",
                 "skills": "HTML5, CSS3, JS, PHP (Magento)"
+            },
+            {
+                "name": "Hertz Inno Tech Company Website",
+                "duration": "2 month",
+                "skills": "HTML5, CSS3, JS, PHP (Wordpress)"
+            },
+            {
+                "name": "Skills Union Website",
+                "duration": "7 months",
+                "skills": "HTML5, CSS3, JS, PHP (Wordpress)"
             }
         ],
         "design": [
