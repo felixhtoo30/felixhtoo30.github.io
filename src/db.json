@@ -1,15 +1,57 @@
 {
     "experience": [
         {
-            "title": "Software Engineer",
-            "company": "Hirokei Myanmar Systems (Hims)",
-            "duration": "Oct, 2017 ~ Nov, 2018",
+            "title": "Web Developer",
+            "company": "TINL",
+            "duration": "Oct, 2022 ~ Present",
             "description": [
-                "Designed and developed for Web Distributor that is warehouse controlled system to ease at controlling export/import products.",
-                "Designed and developed for Regi-Repo (Cloud Reporting System) that is useful for restaurant daily, monthly and yearly sales reports.",
-                "Designed and developed Recoface (Face Recognition System) for Company Contest Project with 6 Branches.",
-                "Developed CRM (Customer Relationship Management) that is useful for customer controlling and management with follow-ups, opportunites, and be suitable for marketing services.",
-                "Drew pamphlets, and graphic designs for the events and products of company."
+                "Theme and plugin development (Start from scratch, or Customize existing themes and plugins)",
+                "Collect the client requirements and negotiation",
+                "Research themes and plugins based on the requirements",
+                "Develop the Portfolio, Company and Ecommerce websites with Wordpress and Shopify based on the clients' demand",
+                "Conduct the client training",
+                "Domain and Hosting management (AWS, Godaddy, Vodien, etc.)"
+            ]
+        },
+        {
+            "title": "Web Developer",
+            "company": "Skills Union",
+            "duration": "Feb, 2020 ~ Sep, 2022",
+            "description": [
+                "Developed Skills Union main Website Ver.2 and Ver.3 (latest).",
+                "Develop and maintain WordPress website that communicates what SkillsU is to the general public.",
+                "Work with stakeholders (CEO, Head of Product, Content Writer, UX Designer, and Technical Director) for continuous evolvement on the website.",
+                "Assist Content Writer by troubleshooting issues and/or providing advice for the technical roadblocks.",
+                "Hosting and server (Ubuntu) maintenance and upgrading.",
+                "Ad-hoc tasks as assigned by the management in line with the Company's vision and mission."
+            ]
+        },
+        {
+            "title": "Web Developer (Part-Time)",
+            "company": "Blink 23 Inc.",
+            "duration": "Dec, 2020 ~ Aug, 2022",
+            "description": [
+                "Designed and Developed Seller Portal Website and Admin Site.",
+                "Developed marketplace E-Commerce Site. Create Modules and Plugins of Magento."
+            ]
+        },
+        {
+            "title": "Frontend Web Developer",
+            "company": "Yammobots Co., Ltd.",
+            "duration": "Dec, 2020 ~ April, 2021",
+            "description": [
+                "Developed Web UI of 'MyCar' Website.",
+                "Designed UI/UX for e-commerce site.",
+                "Developed Web UI (mobile/desktop responsive) of iSure Website."
+            ]
+        },
+        {
+            "title": "UIUX Designer/Web Developer (Freelance)",
+            "company": "Century Links MM",
+            "duration": "Jun, 2020 ~ Dec, 2021",
+            "description": [
+                "Created freelance company logo and portfolio website.",
+                "Created design and made development for online shopping website with Wordpress (Woocommerce plugin)."
             ]
         },
         {
@@ -25,77 +67,53 @@
             ]
         },
         {
-            "title": "UIUX Designer/Web Developer (Freelance)",
-            "company": "Century Links MM",
-            "duration": "Jun, 2020 ~ Dec, 2021",
+            "title": "Software Engineer",
+            "company": "Hirokei Myanmar Systems (Hims)",
+            "duration": "Oct, 2017 ~ Nov, 2018",
             "description": [
-                "Created freelance company logo and portfolio website.",
-                "Created design and made development for online shopping website with Wordpress (Woocommerce plugin)."
-            ]
-        },
-        {
-            "title": "Frontend Web Developer",
-            "company": "Yammobots Co., Ltd.",
-            "duration": "Dec, 2020 ~ April, 2021",
-            "description": [
-                "Developed Web UI of 'MyCar' Website.",
-                "Designed UI/UX for e-commerce site.",
-                "Developed Web UI (mobile/desktop responsive) of iSure Website."
-            ]
-        },
-        {
-            "title": "Web Developer (Part-Time)",
-            "company": "Blink 23 Inc.",
-            "duration": "Dec, 2020 ~ Aug, 2022",
-            "description": [
-                "Designed and Developed Seller Portal Website and Admin Site.",
-                "Developed marketplace E-Commerce Site. Create Modules and Plugins of Magento."
-            ]
-        },
-        {
-            "title": "Web Developer",
-            "company": "Skills Union",
-            "duration": "Feb, 2020 ~ Present",
-            "description": [
-                "Developed Skills Union main Website Ver.2 and Ver.3 (latest).",
-                "Develop and maintain WordPress website that communicates what SkillsU is to the general public.",
-                "Work with stakeholders (CEO, Head of Product, Content Writer, UX Designer, and Technical Director) for continuous evolvement on the website.",
-                "Assist Content Writer by troubleshooting issues and/or providing advice for the technical roadblocks.",
-                "Hosting and server (Ubuntu) maintenance and upgrading.",
-                "Ad-hoc tasks as assigned by the management in line with the Company's vision and mission."
+                "Designed and developed for Web Distributor that is warehouse controlled system to ease at controlling export/import products.",
+                "Designed and developed for Regi-Repo (Cloud Reporting System) that is useful for restaurant daily, monthly and yearly sales reports.",
+                "Designed and developed Recoface (Face Recognition System) for Company Contest Project with 6 Branches.",
+                "Developed CRM (Customer Relationship Management) that is useful for customer controlling and management with follow-ups, opportunites, and be suitable for marketing services.",
+                "Drew pamphlets, and graphic designs for the events and products of company."
             ]
         }
     ],
     "project": {
         "dev": [
             {
-                "name": "Cloud Reporting System",
-                "duration": "6 months",
-                "skills": "HTML5, CSS3, JS, PHP (Laravel)"
+                "name": "Skills Union Website",
+                "duration": "7 months",
+                "skills": "HTML5, CSS3, JS, PHP (Wordpress)"
             },
             {
-                "name": "vTiger CRM",
-                "duration": "6 months",
-                "skills": "HTML5, CSS3, JS, PHP (Smarty)"
+                "name": "Hertz Inno Tech Company Website",
+                "duration": "2 month",
+                "skills": "HTML5, CSS3, JS, PHP (Wordpress)"
             },
             {
-                "name": "Library Management System",
-                "duration": "2 months",
-                "skills": "HTML5, CSS3, JS, PHP (Pure MVC)"
+                "name": "Blink23 Marketplace E-Commerce Website",
+                "duration": "3 month",
+                "skills": "HTML5, CSS3, JS, PHP (Magento)"
             },
             {
-                "name": "Printing Service Info System",
-                "duration": "6 months",
-                "skills": "HTML5, CSS3, JS, PHP (Laravel)"
+                "name": "Blink23 Seller Portal Website",
+                "duration": "3 month",
+                "skills": "HTML5, CSS3, JS, PHP"
             },
             {
-                "name": "Football School Application System from JP",
-                "duration": "3 months",
-                "skills": "HTML5, CSS3, JS, PHP (Laravel)"
+                "name": "Online Shopping Website",
+                "duration": "3 month",
+                "skills": "HTML5, CSS3, JS, PHP (Wordpress)"
             },
             {
-                "name": "Hotel Booking Application System from JP",
-                "duration": "5 months",
+                "name": "Software Service Portfolio Website",
+                "duration": "1 month",
+                "skills": "HTML5, CSS3, JS (Vue), PHP (Wordpress)"
+            },
+            {
+                "name": "Dental Event Application System from JP",
+                "duration": "1 year",
                 "skills": "HTML5, CSS3, JS, PHP (Laravel)"
             },
             {
@@ -104,39 +122,34 @@
                 "skills": "HTML5, CSS3, JS, PHP (Wordpress)"
             },
             {
-                "name": "Dental Event Application System from JP",
-                "duration": "1 year",
+                "name": "Hotel Booking Application System from JP",
+                "duration": "5 months",
                 "skills": "HTML5, CSS3, JS, PHP (Laravel)"
             },
             {
-                "name": "Software Service Portfolio Website",
-                "duration": "1 month",
-                "skills": "HTML5, CSS3, JS (Vue), PHP (Wordpress)"
+                "name": "Football School Application System from JP",
+                "duration": "3 months",
+                "skills": "HTML5, CSS3, JS, PHP (Laravel)"
             },
             {
-                "name": "Online Shopping Website",
-                "duration": "3 month",
-                "skills": "HTML5, CSS3, JS, PHP (Wordpress)"
+                "name": "Printing Service Info System",
+                "duration": "6 months",
+                "skills": "HTML5, CSS3, JS, PHP (Laravel)"
             },
             {
-                "name": "Blink23 Seller Portal Website",
-                "duration": "3 month",
-                "skills": "HTML5, CSS3, JS, PHP"
+                "name": "Library Management System",
+                "duration": "2 months",
+                "skills": "HTML5, CSS3, JS, PHP (Pure MVC)"
             },
             {
-                "name": "Blink23 Marketplace E-Commerce Website",
-                "duration": "3 month",
-                "skills": "HTML5, CSS3, JS, PHP (Magento)"
+                "name": "vTiger CRM",
+                "duration": "6 months",
+                "skills": "HTML5, CSS3, JS, PHP (Smarty)"
             },
             {
-                "name": "Hertz Inno Tech Company Website",
-                "duration": "2 month",
-                "skills": "HTML5, CSS3, JS, PHP (Wordpress)"
-            },
-            {
-                "name": "Skills Union Website",
-                "duration": "7 months",
-                "skills": "HTML5, CSS3, JS, PHP (Wordpress)"
+                "name": "Cloud Reporting System",
+                "duration": "6 months",
+                "skills": "HTML5, CSS3, JS, PHP (Laravel)"
             }
         ],
         "design": [

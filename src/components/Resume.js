@@ -96,7 +96,7 @@ export class Resume extends React.PureComponent {
           </div>
           <div className="w-8/12">
             <p className="pa-normal">
-              I would like to work as Web Developer. I have around 5 years hands-on experience with Web Development since 2017.
+              I would like to work as Web Developer. I have around 6+ years hands-on experience with Web Development since 2017.
             </p>
           </div>
         </div>
@@ -118,15 +118,15 @@ export class Resume extends React.PureComponent {
             <h1 className="pa-head text-primary mr-4">Profile</h1>
           </div>
           <div className="w-8/12">
-            <p className="pa-normal">
-            I am interested in learning and developing products with Web technologies.
-            <br />I'm UIUX Design Enthusiast.
-            <br />I'm keen on logical thinking and problem solving.
-            <br />I've worked as Software Engineer about 1 year and Web Developer about 4 years.
-            <br /> I've project experience with the following fields: Distribution, Warehouse, Cloud Reporting, Marketplace, Ecommerce, LMS Education, Hotel Booking, Event Booking and School Registration.
-            <br />I usually use my free time by reading about Web technologies, Designs and honing my Programming knowledge and skills.
-            <br />My Hobbies are Reading, Listening Podcasts, Learning, Psychology, Philosophy, Programming and Design.
-            </p>
+            <ul>
+              <li>I build the websites, and develop themes & plugins</li>
+              <li>I solve the problems with user-centered approach.</li>
+              <li>I'm UXUI Design Enthusiast.</li>
+              <li> I've worked as Software Engineer about 1 year and Web Developer about 5+ years.</li>
+              <li> I've project experience with the following fields: Distribution, Warehouse, Cloud Reporting, Marketplace, Ecommerce, LMS Education, Hotel Booking, Event Booking and School Registration.</li>
+              <li> I usually use my free time by reading about Web technologies, Designs and honing my Programming knowledge and skills.</li>
+              <li> My Hobbies are Reading, Listening Podcasts, Learning, Psychology, Philosophy, Philanthropy and Design.</li>
+            </ul>
           </div>
         </div>
         <div className="flex mb-10" id="skill">
