@@ -86,7 +86,7 @@ export class Resume extends React.PureComponent {
               {/* <p className="pa-normal">
                 No.53, 7th floor (B), Eain Gyi St., Pazundaung Tsp., Yangon
               </p> */}
-              <p className="pa-normal">Pazundaung Tsp., Yangon</p>
+              <p className="pa-normal">Yangon, Myanmar</p>
             </div>
           </div>
         </div>
