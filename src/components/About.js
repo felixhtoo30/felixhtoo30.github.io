@@ -88,8 +88,8 @@ const About = () => {
       date: "2020 Oct",
       content: {
         text : "Worked as Web Developer at ",
-        linkText : "SMITIV",
-        linkHref : "https://smitiv.com/"
+        linkText : "TINL",
+        linkHref : "https://thereisnolack.com/"
       },
       duration: "(2020 Oct ~ Present)",
       skills: []

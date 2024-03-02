@@ -123,5 +123,8 @@ body {
   list-style: disc;
   margin-left: 16px;
 }
+#printArea .pa-url {
+  color: #d80032;
+}
 
 /*# sourceMappingURL=custom.css.map */

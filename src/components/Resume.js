@@ -37,8 +37,12 @@ export class Resume extends React.PureComponent {
     const ProjectDev = ({ dev }) => (
       <div className="my-5">
         <p className="font-bold text-lg">{dev.name}</p>
-        <p>duration: {dev.duration}</p>
-        <p>skills: {dev.skills}</p>
+        <ul>
+          <li><strong>Duration</strong>: {dev.duration}</li>
+          <li><strong>Skills</strong>: {dev.skills}</li>
+          {(dev.remark) ? <li><strong>Remark</strong>: {dev.remark}</li> : ''}
+          {(dev.url) ? <li><a href={dev.url} className="pa-url">Check Website</a></li> : ''}
+        </ul>
         {/* <div className="mt-3 flex text-3xl text-primary">
           <i className="fab fa-html5 mx-2" />
           <i className="fab fa-css3-alt mx-2" />
@@ -96,7 +100,7 @@ export class Resume extends React.PureComponent {
           </div>
           <div className="w-8/12">
             <p className="pa-normal">
-              I would like to work as Web Developer. I have around 6+ years hands-on experience with Web Development since 2017.
+              I would like to work as Wordpress Web Developer. I have around 6+ years hands-on experience with Web Development since 2017.
             </p>
           </div>
         </div>
@@ -136,13 +140,14 @@ export class Resume extends React.PureComponent {
           <div className="w-8/12">
             <p className="pa-subhead pt-2 mb-6">Hard-skills</p>
             <div className="pa-flex-wrapper">
-              <SkillBar title="HTML5/CSS3" level={5} />
+              {/* Level - 7 max. */}
+              <SkillBar title="HTML5/CSS3" level={6} />
               <SkillBar title="SCSS/SASS" level={5} />
-              <SkillBar title="JQuery" level={5} />
+              <SkillBar title="JQuery" level={6} />
               <SkillBar title="Reactjs" level={4} />
               <SkillBar title="Nodejs" level={3} />
               <SkillBar title="Laravel" level={4} />
-              <SkillBar title="Wordpress" level={5} />
+              <SkillBar title="Wordpress" level={6} />
               <SkillBar title="Magento" level={3} />
               <SkillBar title="Figma/Adobe XD" level={5} />
               <SkillBar title="Adobe Photoshop/Illustrator" level={4} />

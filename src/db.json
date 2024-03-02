@@ -83,28 +83,95 @@
         "dev": [
             {
                 "name": "Skills Union Website",
-                "duration": "7 months",
-                "skills": "HTML5, CSS3, JS, PHP (Wordpress)"
+                "duration": "7 months (two versions)",
+                "skills": "HTML5, CSS3, JS, PHP (Wordpress), Gutenberg, ACF Pro",
+                "remark": "Start from Scratch, Customized",
+                "url": "https://skillsunion.com"
+            },
+            {
+                "name": "Trippin Creatives Website",
+                "duration": "2 weeks",
+                "skills": "HTML5, CSS3, JS, PHP (Wordpress), Elementor",
+                "remark": "Start from Scratch, Customized",
+                "url": "https://trippincreatives.com/"
+            },
+            {
+                "name": "FookGor Durian Website",
+                "duration": "1 month",
+                "skills": "HTML5, CSS3, JS, PHP (Wordpress), Elementor, Woocommerce",
+                "remark": "Start from Scratch, Customized",
+                "url": "https://fookgordurian.com/"
+            },
+            {
+                "name": "SMarco Website",
+                "duration": "3 weeks",
+                "skills": "HTML5, CSS3, JS, PHP (Wordpress), Elementor",
+                "remark": "Templated, Half-Customized",
+                "url": "https://smarco.com.sg/"
+            },
+            {
+                "name": "SoonSoon TShirt Website",
+                "duration": "1 month",
+                "skills": "HTML5, CSS3, JS, PHP (Wordpress), Elementor, Woocommerce",
+                "remark": "Templated, Half-Customized",
+                "url": "https://soonsoon.sg"
+            },
+            {
+                "name": "ES LINK Website",
+                "duration": "3 weeks",
+                "skills": "HTML5, CSS3, JS, PHP (Wordpress), Elementor",
+                "remark": "Templated, Half-Customized",
+                "url": "https://www.esmartlink.com.sg/overview/"
+            },
+            {
+                "name": "361dc Website",
+                "duration": "1 month",
+                "skills": "HTML5, CSS3, JS, PHP (Wordpress), Elementor",
+                "remark": "Templated, Half-Customized",
+                "url": "https://361dc.com/"
+            },
+            {
+                "name": "InShield Technologies Website",
+                "duration": "3 weeks",
+                "skills": "HTML5, CSS3, JS, PHP (Wordpress), Elementor",
+                "remark": "Templated, Half-Customized",
+                "url": "https://inshieldtech.com/"
+            },
+            {
+                "name": "SJLimousine Website",
+                "duration": "2 weeks",
+                "skills": "HTML5, CSS3, JS, PHP (Wordpress), Elementor",
+                "remark": "Templated, Half-Customized",
+                "url": "https://sjlimousine.co"
+            },
+            {
+                "name": "HCool Aircon Website",
+                "duration": "1 month",
+                "skills": "HTML5, CSS3, JS, PHP (Wordpress), Bold Builder",
+                "remark": "Templated, Half-Customized",
+                "url": "https://hcoolaircon.com/"
             },
             {
                 "name": "Hertz Inno Tech Company Website",
-                "duration": "2 month",
-                "skills": "HTML5, CSS3, JS, PHP (Wordpress)"
+                "duration": "2 months",
+                "skills": "HTML5, CSS3, JS, PHP (Wordpress), Elementor",
+                "remark": "Start from Scratch, Customized",
+                "url": "https://hertzinnotech.net"
             },
             {
                 "name": "Blink23 Marketplace E-Commerce Website",
-                "duration": "3 month",
+                "duration": "3 months",
                 "skills": "HTML5, CSS3, JS, PHP (Magento)"
             },
             {
                 "name": "Blink23 Seller Portal Website",
-                "duration": "3 month",
+                "duration": "3 months",
                 "skills": "HTML5, CSS3, JS, PHP"
             },
             {
-                "name": "Online Shopping Website",
-                "duration": "3 month",
-                "skills": "HTML5, CSS3, JS, PHP (Wordpress)"
+                "name": "C-Home Online Shopping Website",
+                "duration": "3 months",
+                "skills": "HTML5, CSS3, JS, PHP (Wordpress), Woocommerce"
             },
             {
                 "name": "Software Service Portfolio Website",
