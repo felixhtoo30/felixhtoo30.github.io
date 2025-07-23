@@ -1,9 +1,36 @@
 {
     "experience": [
         {
-            "title": "Web Developer",
+            "title": "Senior Web Developer (Full-stack with ReactJS, NodeJS)",
+            "company": "ConnectingDNA Global",
+            "duration": "Mar, 2025 ~ Present",
+            "description": [
+                "Design, develop, and maintain scalable web applications using React, JavaScript, Next.js, and TypeScript.",
+                "Build and manage RESTful APIs to support front-end functionalities and AI integrations.",
+                "Deploy and optimize solutions in cloud environments (AWS, Azure) with CI/CD pipelines.",
+                "Collaborate with the AI team to integrate machine learning models and AI functionalities into web applications.",
+                "Ensure secure and efficient code deployment using DevSecOps tools and best practices.",
+                "Work closely with designers, product managers, and developers to deliver high-quality products."
+            ]
+        },
+        {
+            "title": "Senior Web Developer (Full-stack with ReactJS, NodeJS)",
+            "company": "LINKZ",
+            "duration": "May, 2022 ~ Feb, 2025",
+            "description": [
+                "Draft and deploy the high quality code base",
+                "Collaborate with CEO, product owners, designers, and other engineers to build the best user experience",
+                "Implement the solutions that provide meaningful user value regarding to the UX design and Business requirements",
+                "Take a lead role in the development of LINKZ web product",
+                "Perform code reviews, and Refactoring to improve the code base performance",
+                "Complete technical verification of ERD design and code architecture",
+                "Conduct the SCRUM meetings and daily stand-ups"
+            ]
+        },
+        {
+            "title": "Web Developer (Wordpress, Shopify)",
             "company": "TINL",
-            "duration": "Oct, 2022 ~ Present",
+            "duration": "Oct, 2022 ~ April, 2024",
             "description": [
                 "Theme and plugin development (Start from scratch, or Customize existing themes and plugins)",
                 "Collect the client requirements and negotiation",
@@ -14,7 +41,7 @@
             ]
         },
         {
-            "title": "Web Developer",
+            "title": "Web Developer (Wordpress)",
             "company": "Skills Union",
             "duration": "Feb, 2020 ~ Sep, 2022",
             "description": [
@@ -82,9 +109,30 @@
     "project": {
         "dev": [
             {
+                "name": "ConnectingDNA Web App",
+                "duration": "ongoing",
+                "skills": "HTML5, CSS3, ReactJS (NextJS), NodeJS (NestJS), Postgres, Azure, AWS",
+                "remark": "Customized, Maintenance, Deployment",
+                "url": "https://marketplace.uat.connectingdna.com"
+            },
+            {
+                "name": "Linkz Asia Web App",
+                "duration": "7 months",
+                "skills": "HTML5, CSS3, ReactJS (Vite), NodeJS (NestJS), Postgres",
+                "remark": "Customized, Maintenance",
+                "url": "https://web.linkzasia.com"
+            },
+            {
+                "name": "Linkz Asia Website (Landing)",
+                "duration": "2 months",
+                "skills": "HTML5, CSS3, NextJS, TailwindCSS, Wordpress (CMS)",
+                "remark": "Customized, Maintenance",
+                "url": "https://linkzasia.com"
+            },
+            {
                 "name": "Skills Union Website",
                 "duration": "7 months (two versions)",
-                "skills": "HTML5, CSS3, JS, PHP (Wordpress), Gutenberg, ACF Pro",
+                "skills": "HTML5, CSS3, JS, PHP (Wordpress), Gutenberg, ACF Pro, AWS",
                 "remark": "Start from Scratch, Customized",
                 "url": "https://skillsunion.com"
             },
@@ -152,21 +200,29 @@
                 "url": "https://hcoolaircon.com/"
             },
             {
-                "name": "Hertz Inno Tech Company Website",
-                "duration": "2 months",
-                "skills": "HTML5, CSS3, JS, PHP (Wordpress), Elementor",
-                "remark": "Start from Scratch, Customized",
-                "url": "https://hertzinnotech.net"
+                "name": "Sai Hing Ecommerce Website",
+                "duration": "1 month",
+                "skills": "HTML5, CSS3, JS, Shopify, Liquid",
+                "remark": "Templated, Half-Customized",
+                "url": "https://saihing.com/"
             },
             {
                 "name": "Blink23 Marketplace E-Commerce Website",
                 "duration": "3 months",
-                "skills": "HTML5, CSS3, JS, PHP (Magento)"
+                "skills": "HTML5, CSS3, JS, PHP (Magento), AlpineJS",
+                "url": "https://blink23.com/"
             },
             {
                 "name": "Blink23 Seller Portal Website",
                 "duration": "3 months",
-                "skills": "HTML5, CSS3, JS, PHP"
+                "skills": "HTML5, CSS3, JS, PHP",
+                "url": "https://sell.blink23.com/"
+            },
+            {
+                "name": "Hertz Inno Tech Company Website",
+                "duration": "2 months",
+                "skills": "HTML5, CSS3, JS, PHP (Wordpress), Elementor",
+                "remark": "Start from Scratch, Customized"
             },
             {
                 "name": "C-Home Online Shopping Website",
