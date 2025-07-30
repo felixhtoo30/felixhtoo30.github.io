@@ -85,13 +85,33 @@ const About = () => {
       duration: "(2022 Feb ~ 2022 Sep)",
       skills: []
     },{
-      date: "2020 Oct",
+      date: "2022 Oct",
       content: {
         text : "Worked as Web Developer at ",
         linkText : "TINL",
         linkHref : "https://thereisnolack.com/"
       },
-      duration: "(2020 Oct ~ Present)",
+      duration: "(2022 Oct ~ 2024 April)",
+      skills: []
+    },
+    {
+      date: "2024 May",
+      content: {
+        text : "Worked as Senior Web Developer at ",
+        linkText : "LINKZ",
+        linkHref : "https://linkzasia.com/"
+      },
+      duration: "(2024 May ~ 2025 Feb)",
+      skills: []
+    },
+    {
+      date: "2025 Mar",
+      content: {
+        text : "Worked as Senior Web Developer at ",
+        linkText : "ConnectingDNA",
+        linkHref : "https://connectingdna.com/"
+      },
+      duration: "(2025 Mar ~ Present)",
       skills: []
     },
   ];

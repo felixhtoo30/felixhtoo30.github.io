@@ -26,12 +26,12 @@ const Header = () => {
           <li className="text-xl md:text-lg lg:text-xl xl:text-2xl p-4 md:p-2 my-0 mx-3 lg:my-4 lg:mx-5">
             <Link to="/about" onClick={handleMenu}>About Me</Link>
           </li>
-          <li className="text-xl md:text-lg lg:text-xl xl:text-2xl p-4 md:p-2 my-0 mx-3 lg:my-4 lg:mx-5">
+          {/* <li className="text-xl md:text-lg lg:text-xl xl:text-2xl p-4 md:p-2 my-0 mx-3 lg:my-4 lg:mx-5">
             <Link to="/works" onClick={handleMenu}>Works</Link>
           </li>
           <li className="text-xl md:text-lg lg:text-xl xl:text-2xl p-4 md:p-2 my-0 mx-3 lg:my-4 lg:mx-5">
             <Link to="/articles" onClick={handleMenu}>Articles</Link>
-          </li>
+          </li> */}
         </ul>
       </header>
     </>
