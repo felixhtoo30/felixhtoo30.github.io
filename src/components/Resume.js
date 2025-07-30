@@ -5,7 +5,7 @@ import data from "../db.json";
 
 export class Resume extends React.PureComponent {
   render() {
-    const maxLevel = 7;
+    const maxLevel = 10;
     const SkillBar = ({ title, detail, level }) => (
       <div className="mb-6">
         <p className="pa-normal mb-2">
@@ -16,7 +16,7 @@ export class Resume extends React.PureComponent {
         <div className="pa-skill-bar w-10/12 flex">
           {[...Array(maxLevel)].map((el, i) => (
             <p
-              className={`item w-full h-2 mr-2 ${i < level ? "on" : "off"}`}
+              className={`item w-full h-2 mr-1 ${i < level ? "on" : "off"}`}
               key={i}
             ></p>
           ))}
@@ -103,7 +103,7 @@ export class Resume extends React.PureComponent {
             </div>
             <div className="main-info mb-4">
               <h3 className="pa-subhead">Phone</h3>
-              <p className="pa-normal">+959450006369</p>
+              <p className="pa-normal">+66834748743</p>
             </div>
             <div className="main-info mb-4">
               <h3 className="pa-subhead">LinkedIn</h3>
@@ -116,7 +116,8 @@ export class Resume extends React.PureComponent {
             <div className="main-info mb-4">
               <h3 className="pa-subhead">Address</h3>
               <p className="pa-normal">
-                No. 217, 3rd fl (B), Dhama Yarzar 28 St., 10th Ward, South Okkalapa Tsp., Yangon, 11091
+                Room No. 49/102, Floor 6, Building 1, UTR Udomsuk Tower,
+                Sukhumvit 103, Bang Na Nuea, Bang Na District, Bangkok 10260
               </p>
               {/* <p className="pa-normal">Bangkok, Thailand</p> */}
             </div>
@@ -128,8 +129,8 @@ export class Resume extends React.PureComponent {
           </div>
           <div className="w-8/12">
             <p className="pa-normal">
-              I would like to apply for Senior Full-stack Web Developer
-              position. I have around 7 years hands-on experience in Web
+              I would like to apply DTV as remote senior full-stack Web
+              Developer. I have around 7 years hands-on experience in Web
               Development Industry since 2017.
             </p>
           </div>
@@ -159,8 +160,8 @@ export class Resume extends React.PureComponent {
               </li>
               <li>
                 As a remote experience, I have around 4 years hands on
-                experience about developing the websites since 2022, negotiating and
-                communicating with the foreign clients (London, Singapore,
+                experience about developing the websites since 2022, negotiating
+                and communicating with the foreign clients (London, Singapore,
                 India, Dubai, Malaysia, and Taiwan).
               </li>
               <li>
@@ -203,24 +204,24 @@ export class Resume extends React.PureComponent {
             <div className="pa-flex-wrapper">
               {/* Level - 7 max. */}
               <SkillBar title="HTML5/CSS3" level={8} />
-              <SkillBar title="SCSS/SASS" level={7} />
-              <SkillBar title="JQuery" level={7} />
-              <SkillBar title="Wordpress" level={6} />
-              <SkillBar title="Self-Hosting" level={6} />
-              <SkillBar title="AWS" level={5} />
-              <SkillBar title="Laravel" level={4} />
-              <SkillBar title="Shopify" level={4} />
-              <SkillBar title="Magento" level={4} />
+              <SkillBar title="SCSS/SASS" level={8} />
+              <SkillBar title="JQuery" level={8} />
+              <SkillBar title="Wordpress" level={8} />
               <SkillBar title="ReactJS" level={8} />
               <SkillBar title="NodeJS" level={7} />
-              <SkillBar title="UXUI Design" level={4} />
+              <SkillBar title="Self-Hosting" level={7} />
+              <SkillBar title="AWS" level={7} />
+              <SkillBar title="Laravel" level={4} />
+              <SkillBar title="Shopify" level={5} />
+              <SkillBar title="Magento" level={4} />
+              <SkillBar title="UXUI Design" level={6} />
             </div>
             <p className="pa-subhead pt-4 mb-4">Soft-skills</p>
             <p>
               {" "}
               Independent . Self-Motivated . Client Communication . Negotiation
-              . Organized . Leadership . Teamwork . Problem solving . Self-taught .
-              Adaptability . Responsibility
+              . Organized . Leadership . Teamwork . Problem solving .
+              Self-taught . Adaptability . Responsibility
             </p>
           </div>
         </div>
