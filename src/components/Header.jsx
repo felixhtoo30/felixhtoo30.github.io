@@ -1,6 +1,4 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
-
 
 const Header = () => {
   
@@ -11,30 +9,32 @@ const Header = () => {
   };
 
   return (
-    <>
-      <i
+    <div className="container lg:container-lg relative">
+      <button
+        type="button"
+        aria-label={isToggle ? "Open navigation menu" : "Close navigation menu"}
         className={`nav-menu-icon ${isToggle ? "fas fa-bars" : "fas fa-times"} md:hidden p-4 bg-white text-xl text-primary z-50`}
         onClick={handleMenu}
-      ></i>
+      ></button>
       <header
         className={`nav md:nav-md ${isToggle ? "hidden" : "flex"} md:block z-40`}
       >
         <ul className={`nav-menu md:py-5 text-center block md:inline-flex`}>
           <li className="text-xl md:text-lg lg:text-xl xl:text-2xl p-4 md:p-2 my-0 mx-3 lg:my-4 lg:mx-5">
-            <Link to="/" onClick={handleMenu}>Home</Link>
+            <a href="/" onClick={handleMenu}>Home</a>
           </li>
           <li className="text-xl md:text-lg lg:text-xl xl:text-2xl p-4 md:p-2 my-0 mx-3 lg:my-4 lg:mx-5">
-            <Link to="/about" onClick={handleMenu}>About Me</Link>
+            <a href="/about" onClick={handleMenu}>About Me</a>
           </li>
           {/* <li className="text-xl md:text-lg lg:text-xl xl:text-2xl p-4 md:p-2 my-0 mx-3 lg:my-4 lg:mx-5">
-            <Link to="/works" onClick={handleMenu}>Works</Link>
+            <a href="/works" onClick={handleMenu}>Works</a>
           </li>
           <li className="text-xl md:text-lg lg:text-xl xl:text-2xl p-4 md:p-2 my-0 mx-3 lg:my-4 lg:mx-5">
-            <Link to="/articles" onClick={handleMenu}>Articles</Link>
+            <a href="/articles" onClick={handleMenu}>Articles</a>
           </li> */}
         </ul>
       </header>
-    </>
+    </div>
   );
 };
 

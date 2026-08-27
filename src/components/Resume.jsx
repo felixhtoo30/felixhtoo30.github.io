@@ -1,5 +1,5 @@
 import React from "react";
-import profileImg from "../assets/images/profile_masked.png";
+import profileImg from "../assets/images/propic-fh-masked.png?url";
 // import {data} from "../db.js";
 import data from "../db.json";
 
@@ -32,7 +32,7 @@ export class Resume extends React.PureComponent {
         {/* <div dangerouslySetInnerHTML={{ __html: exp.description }} /> */}
         <ul>
           {exp.description.map((val) => (
-            <li>{val}</li>
+            <li key={val}>{val}</li>
           ))}
         </ul>
       </div>
@@ -88,10 +88,14 @@ export class Resume extends React.PureComponent {
     };
 
     return (
-      <div className="mx-auto my-0 px-10" id="printArea">
+      <div
+        className="mx-auto my-0 px-10"
+        id="printArea"
+        ref={this.props.contentRef}
+      >
         <div className="main flex mb-10">
           <div className="w-5/12">
-            <img src={`${profileImg}`} alt="Felix Htoo" className="w-9/12" />
+            <img src={profileImg} alt="Felix Htoo" className="w-9/12" />
           </div>
           <div className="w-7/12">
             <h1 className="text-3xl text-primary mb-8">

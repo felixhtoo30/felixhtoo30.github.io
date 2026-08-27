@@ -1,5 +1,5 @@
 import React from "react";
-import BackgroundImage from "../assets/images/bg_pattern.svg";
+import BackgroundImage from "../assets/images/bg_pattern.svg?url";
 
 const Banner = ({title}) => {
   return (
