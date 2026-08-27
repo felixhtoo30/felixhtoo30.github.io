@@ -1,0 +1,10 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Hero from "../components/Hero.jsx";
+import AboutMe from "../components/AboutMe.jsx";
+---
+
+<Layout>
+  <Hero client:load />
+  <AboutMe client:visible />
+</Layout>

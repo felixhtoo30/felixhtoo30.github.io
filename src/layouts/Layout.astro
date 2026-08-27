@@ -1,0 +1,77 @@
+---
+import "../index.css";
+import "../custom.css";
+import "@fortawesome/fontawesome-free/css/all.min.css";
+import Header from "../components/Header.jsx";
+
+interface Props {
+  title?: string;
+  description?: string;
+}
+
+const {
+  title = "Felix Htoo — Senior Full-Stack Web Developer",
+  description = "Portfolio of Felix Htoo, a Senior Full-Stack Web Developer specializing in React, Node.js, WordPress, UI/UX, and scalable web applications.",
+} = Astro.props;
+
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+const socialImage = new URL("/logo512.png", Astro.site);
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  name: "Htoo Ant Hlaing",
+  alternateName: "Felix Htoo",
+  url: Astro.site,
+  image: socialImage,
+  jobTitle: "Senior Full-Stack Web Developer",
+  sameAs: [
+    "https://github.com/felixhtoo30",
+    "https://linkedin.com/in/felixhtoo30",
+    "https://facebook.com/felixhtoo30",
+  ],
+  knowsAbout: [
+    "React",
+    "Node.js",
+    "Next.js",
+    "WordPress",
+    "User Experience Design",
+  ],
+};
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta name="description" content={description} />
+    <meta name="author" content="Felix Htoo" />
+
+    <link rel="canonical" href={canonicalURL} />
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="apple-touch-icon" href="/logo192.png" />
+    <link rel="manifest" href="/manifest.json" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Felix Htoo" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonicalURL} />
+    <meta property="og:image" content={socialImage} />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={socialImage} />
+
+    <script type="application/ld+json" set:html={JSON.stringify(structuredData)} />
+    <title>{title}</title>
+  </head>
+  <body>
+    <Header client:load />
+    <main>
+      <slot />
+    </main>
+  </body>
+</html>

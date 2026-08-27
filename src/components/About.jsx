@@ -138,7 +138,7 @@ const About = () => {
         <div className="timeline-baseline" />
         <div className="timeline-container mr-2 my-4">
           {states.map((state) => (
-            <TimelineState state={state} />
+            <TimelineState state={state} key={`${state.date}-${state.content.linkText}`} />
           ))}
         </div>
       </div>

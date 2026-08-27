@@ -1,6 +1,6 @@
-module.exports = {
-  purge: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
-  darkMode: false, // or 'media' or 'class'
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ["./src/**/*.{astro,html,js,jsx,md,mdx,ts,tsx}"],
   important: true, // make all utilities '!important'
   theme: {
     container: {
@@ -29,9 +29,6 @@ module.exports = {
         // => @media print { ... }
       }
     }
-  },
-  variants: {
-    extend: {},
   },
   plugins: [],
 };
