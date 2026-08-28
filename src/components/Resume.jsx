@@ -1,5 +1,6 @@
 import React from "react";
-import profileImg from "../assets/images/propic-fh-masked.png?url";
+// import profileImg from "../assets/images/propic-fh-masked.png?url";
+import profileImg from "../assets/images/propic-fh.jpg?url";
 // import {data} from "../db.js";
 import data from "../db.json";
 
@@ -83,11 +84,17 @@ export class Resume extends React.PureComponent {
         id="printArea"
         ref={this.props.contentRef}
       >
-        <div className="main flex mb-10">
-          <div className="w-5/12">
-            <img src={profileImg} alt="Felix Htoo" className="w-9/12" />
+        <div className="main flex mb-6">
+          <div className="w-[32%]">
+            <div className="w-[186px] overflow-hidden rounded-full">
+              <img
+                src={profileImg}
+                alt="Felix Htoo"
+                className="object-cover scale-105 translate-x-1"
+              />
+            </div>
           </div>
-          <div className="w-7/12">
+          <div className="w-[68%]">
             <h1 className="text-3xl text-primary mb-8">
               Htoo Ant Hlaing (Felix)
             </h1>
@@ -124,14 +131,6 @@ export class Resume extends React.PureComponent {
             maintainable digital experiences. Experienced in remote
             collaboration with international teams and currently advancing
             AI-assisted, specification-driven development practices.
-          </p>
-        </ResumeSection>
-        <ResumeSection id="education" title="Education">
-          <p className="pa-normal">
-            Bachelor of Computer Science (B.C.Sc) from University of Computer
-            Studies, Yangon (UCSY)
-            <br />
-            (2012-2017)
           </p>
         </ResumeSection>
         <ResumeSection id="profile" title="Core Strengths">
@@ -232,6 +231,38 @@ export class Resume extends React.PureComponent {
             {data.project.design.map((val, i) => (
               <ProjectDesign design={val} key={i} />
             ))}
+          </div>
+        </ResumeSection>
+        <ResumeSection id="education" title="Education">
+          <p className="pa-normal">
+            Bachelor of Computer Science (B.C.Sc) from University of Computer
+            Studies, Yangon (UCSY)
+            <br />
+            (2012-2017)
+          </p>
+        </ResumeSection>
+        <ResumeSection id="certifications" title="Certifications">
+          <div className="mb-4">
+            <p className="pa-subhead mb-1">
+              Object-Oriented UI Design: Build Interfaces Users Love
+            </p>
+            <p className="pa-normal">
+              - IxDF (Interaction Design Foundation), 2026 <br/>
+              (<a
+                href="https://ixdf.org/members/felix-htoo/certificate/course/2bb1e5fb-32e2-4fb5-9e9f-395002e95a32"
+                className="pa-url"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View credential
+              </a>)
+            </p>
+          </div>
+          <div className="mb-4">
+            <p className="pa-subhead mb-1">
+              Design Psychology: Master the Art and Science of UX Design
+            </p>
+            <p className="pa-normal">- LinkedIn Learning, 2026</p>
           </div>
         </ResumeSection>
         {/* 595 x 842 */}

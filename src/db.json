@@ -5,12 +5,11 @@
             "company": "ConnectingDNA Global",
             "duration": "Mar, 2025 ~ Sep, 2026",
             "description": [
-                "Design, develop, and maintain scalable web applications using React, JavaScript, Next.js, NodeJS and TypeScript.",
+                "Design, develop, and maintain scalable DNA marketplace and Bio profile web apps using React, JavaScript, Next.js, NodeJS and TypeScript.",
                 "Build and manage RESTful APIs to support front-end functionalities and AI integrations.",
+                "Collaborate with the AI team to integrate AI functionalities (like Chatbot and DNA Report Analysis) into the web apps.",
                 "Deploy and optimize solutions in cloud environments (AWS, Azure) with CI/CD pipelines.",
-                "Collaborate with the AI team to integrate machine learning models and AI functionalities into web applications.",
-                "Ensure secure and efficient code deployment using DevSecOps tools and best practices.",
-                "Work closely with designers, product managers, and developers to deliver high-quality products.",
+                "Work closely with design team, AI team, and peer developers",
                 "Deliver full-stack features from Jira requirements through an AI-native development workflow, analysing the existing system, identifying technical concerns, reviewing implementation plans, and directing coding agents through incremental development.",
                 "Maintain the product's design system and reusable UI components, ensuring new features remain visually consistent and follow established interaction patterns."
             ]
