@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 
-import profileImg from "../assets/images/propic-fh-masked.png?url";
+// import profileImg from "../assets/images/propic-fh-masked.png?url";
+import profileImg from "../assets/images/propic-fh.jpg?url";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 
@@ -25,24 +26,23 @@ const AboutMe = () => {
           // stagger: 0.3, // delay between each span by 0.5 second
           ease: "power4",
           // immediateRender: false,
-        }
+        },
       );
     },
-    { scope: heroRef }
+    { scope: heroRef },
   );
 
   return (
     <>
-      <div
-        className="container lg:container-lg flex my-20"
-        ref={heroRef}
-      >
-        <div className="flex-[2] flex justify-center mt-12 relative h-full">
-          <img
-            src={profileImg}
-            alt="Felix Htoo"
-            className="w-[300px] aspect-auto object-cover object-center"
-          />
+      <div className="container lg:container-lg flex my-20" ref={heroRef}>
+        <div className="flex-[2] flex justify-center mt-8 relative h-full">
+          <div className="rounded-full overflow-hidden">
+            <img
+              src={profileImg}
+              alt="Felix Htoo"
+              className="w-[300px] aspect-auto object-cover object-center translate-x-1"
+            />
+          </div>
         </div>
         <div className="flex-[3]">
           <div className="w-full h-fit hero-main py-5 px-6 text-left">
@@ -51,7 +51,7 @@ const AboutMe = () => {
                 <span>About Me</span>
               </div>
             </h1>
-            <div className="mt-8 text-md">
+            <div className="mt-8 text-lg">
               <p>
                 Hi! I'm a Senior Full-Stack Web Developer with over 7 years of
                 experience building robust, scalable, and user-focused websites
