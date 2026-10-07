@@ -26,6 +26,9 @@ const Header = () => {
           <li className="text-xl md:text-lg lg:text-xl xl:text-2xl p-4 md:p-2 my-0 mx-3 lg:my-4 lg:mx-5">
             <a href="/about" onClick={handleMenu}>About Me</a>
           </li>
+          <li className="text-xl md:text-lg lg:text-xl xl:text-2xl p-4 md:p-2 my-0 mx-3 lg:my-4 lg:mx-5">
+            <a href="/projects" onClick={handleMenu}>Projects</a>
+          </li>
           {/* <li className="text-xl md:text-lg lg:text-xl xl:text-2xl p-4 md:p-2 my-0 mx-3 lg:my-4 lg:mx-5">
             <a href="/works" onClick={handleMenu}>Works</a>
           </li>
